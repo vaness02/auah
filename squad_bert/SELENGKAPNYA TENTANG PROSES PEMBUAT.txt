@@ -1,0 +1,45 @@
+SELENGKAPNYA TENTANG PROSES PEMBUATAN ESPRESSO
+
+
+MESKI gelombang ketiga sedang menguasai industri kopi saat ini –gelombang keempat bahkan telah bersiap-siap menginvasi– tapi espresso, minuman yang sudah berusia lebih dari 100 tahun sejak dipatenkan Angelo Moriondo pertama kali di tahun 1884 ini tetap selalu digemari. Mengutip pernyataan dari Andrea Illy, “espresso is a miracle of chemistry in a cup”. Meskipun ‘klasik’ namun ada semacam keajaiban di dalam minuman ini yang membuatnya selalu disukai dan dicari.
+
+Belakangan, semakin banyak pula mesin dan alat yang memudahkan kita untuk membuat espresso. Meski begitu, tetap saja, membuatnya tidak semudah itu—terutama jika membuat espresso dengan mesin. Ada sejumlah faktor penting yang harus diperhatikan untuk menciptakan hasil yang sempurna. Apa-apa saja?
+
+
+Variabel-variabel brewing
+
+Bagian ini mencakup hal-hal dasar yang harus dipersiapkan, diantaranya adalah:
+
+· Air. Espresso, bagaimana pun, akan terasa nikmat jika air yang digunakan juga baik. Bukan hal baru lagi bahwa air merupakan salah satu elemen penting dalam proses meracik kopi. Air yang mengandung endapan, ‘kerak’ dan mineral-mineral tak baik akan merusak espresso dan bahkan alat yang digunakan itu sendiri. Karenanya, sangat penting untuk memelajari kualitas air yang akan digunakan. Ada banyak water test kits yang kini dijual di toko-toko hardware. Dan sekiranya itu masih belum lengkap, buku panduan tentang standar kualitas air yang dirilis oleh SCAA pun bisa dijadikan panduan.
+
+· Gilingan. Sebelum diproses, biji kopi perlu digiling terlebih dahulu. Untuk membuat espresso, dibutuhkan level gilingan yang lebih halus dibandingkan dengan metode seduhan kebanyakan, misalnya gilingan filtered coffee. Sebagai contoh sederhana, level kehalusan untuk bubuk espresso bisa dibandingkan dengan garam dapur dan bisa dikenali jika bubuknya sedikit bergumpal—menunjukkan bahwa level kehalusannya cukup maksimal.
+
+· Takaran. Untuk espresso double shot, biasanya standar yang digunakan adalah 18-21 gram bubuk kopi. Semakin banyak bubuk kopi yang ditambahkan, maka espresso yang dihasilkan pun semakin kuat baik body dan intensitasnya.
+
+· Tamping. Memadatkan bubuk kopi dengan tamper akan membatasi aliran air yang merambat masuk ke dalam bubuk kopi itu. Dan pada akhirnya akan “memaksa” bubuk kopi dan air terekstrasi lebih padat. Di sinilah fungsi tamping itu memegang peranannya. Proses tamping yang cukup kuat dan merata akan sangat penting dalam menghasilkan ekstraksi yang merata pula.
+
+· Suhu. Air bersuhu 90°-96°C umumnya dianggap ideal untuk menyiapkan kopi. Di beberapa mesin kopi, kita bisa menentukan dan mengendalikan sendiri pengaturan suhu ini. Nah sistem inilah yang sering disebut dengan PID controller. Jika mesin espresso yang kamu miliki memiliki fitur ini, maka kamu bisa bereksperimen sebebasnya dengan berbagai rentang suhu yang disukai. Suhu yang lebih rendah umumnya akan menghasilkan lebih banyak brightness dan taste yang lebih ringan, sementara suhu yang lebih tinggi akan membuat karakternya lebih roasty dan intens.
+
+· Hasil akhir. Pada proses coffee brewing, ada dua faktor yang cukup esensial yaitu coffee input dan water input. Namun untuk urusan membuat espresso, maka dua elemen yang cukup esensial adalah coffee input dan beverage input. Untuk mengukurnya, coba buat 2 oz espresso—kira-kira cukuplah untuk 1 shot glass ukuran besar. Lalu timbang espresso tadi, jika beratnya sekitar 30 gram maka itu bisa dianggap hasil akhir yang ideal.
+
+hasil-akhir-espresso-shot
+Contoh untuk “mengukur” coffee input dan beverage input.
+· Durasi waktu. Dengan rekomendasi dosis takaran dan hasil akhir tadi, maka durasi yang baik untuk membuat espresso umumnya adalah selama 25-30 detik, mulai dari tahap ekstraksi awal sampai gelas terisi penuh.
+
+ 
+
+Alat-alat yang digunakan
+
+Alat-alat yang penting untuk mengeksekusi proses espresso dengan baik, diantaranya:
+
+· Mesin. Mesin espresso yang baik pada umumnya adalah yang bisa mendukung banyak performa penting dalam pembuatan espresso itu, mulai dari stabilitas temperatur sampai sensible interface. Di beberapa artikel sebelumnya, kami sudah pernah membahas tentang tipe-tipe mesin espresso, perbedaan macam-macam boiler pada mesin espresso dan beberapa pertimbangan yang bisa dipikirkan sebelum membeli mesin espresso. Nah, yang diperlukan hanya tinggal memelajarinya saja banyak-banyak. :p
+
+· Grinder. Espresso dengan rasa yang konsisten dimulai dari level gilingan yang konsisten pula. Untuk mendapatkan hasil gilingan terbaik, disarankan untuk memilih burr grinder yang bisa menggiling cukup baik dengan berbagai penyesuaian.
+
+· Tamper. Untuk menghasilkan ekstraksi yang merata, sebaiknya pilihlah tamper yang cocok dengan portafilter basket kalian masing-masing. Kebanyakan basket memiliki diameter 58 mm.
+
+· Timbangan/scale. Dengan sebuah timbangan berat atau gram scale, maka kita akan bisa tetap menjaga hasil yang konsisten dan mendiagnosa kemungkinan kesalahan sedini mungkin. Terutama untuk soal coffee input dan beverage input tadi.
+
+ 
+
+Demikianlah beberapa variabel penting yang perlu diperhatikan selama proses membuat espresso. Selamat membuat espresso!

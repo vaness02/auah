@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: url('{{ url_for('static', filename='img/coffe1.jpg') }}') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="{{ url_for('static', filename='img/coffeelogo3.jpg') }}" alt="Coffee Bot Logo" class="about-logohome">
+            <h1>Coffee Bot</h1>
+            <a href="/about" class="about-link">About</a>
+        </div>
+        <div class="chat-actions">
+            <button id="new-session" class="session-button">New Chat</button>
+            <button id="delete-session" class="session-button">Delete Chat</button>
+            <button id="save-session" class="session-button">Save Chat</button>
+            
+        </div>
+        <div class="main-content">
+            <div id="history-content" class="history-content"></div>
+            <div id="chatbox">
+                {% for message in chat_history %}
+                    <div class="{{ message.sender | lower }}-message">
+                        <div class="avatar-name">
+                            <img src="{{ url_for('static', filename='img/' + message.sender | lower + '.png') }}" alt="{{ message.sender }} Image" class="avatar">
+                            <span>{{ message.sender }}</span>
+                        </div>
+                        <div class="message-text">
+                            {{ message.text }}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <form id="chat-form" action="/" method="post">
+            <input type="text" id="question" name="question" placeholder="Ketik pertanyaan anda disini...">
+            <input type="submit" value="Enter">
+        </form>
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

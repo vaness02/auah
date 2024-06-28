@@ -1,0 +1,288 @@
+/* style.css */
+
+.container {
+    max-width: 850px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: rgba(255, 255, 255, 0.9); /* Background putih transparan */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 7px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.chat-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.session-button {
+    padding: 10px;
+    background-color: #C4A484;
+    color: #000000;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-right: 10px; 
+}
+
+.session-button:hover {
+    background-color: #e9e9e9;
+}
+
+/* Mengatur jarak khusus untuk tombol Delete Chat */
+#delete-session {
+    margin-right: 570px; /* Menambahkan jarak lebih besar antara tombol Delete dan Save */
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.history-content {
+    width: 30%; /* Lebar riwayat chat */
+    margin-right: 20px;
+    overflow-y: auto;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.history-item {
+    padding: 10px;
+    background-color: #d4d0cc;
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.history-item:hover {
+    background-color: #e9e9e9;
+    color: #000000;
+}
+
+#chatbox {
+    width: 65%; /* Lebar chatbox */
+    overflow-y: auto;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.9); /* Dark coffee color */
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.avatar-name {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-name img {
+    width: 50px; 
+    height: auto;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.avatar-name span {
+    font-weight: bold;
+    color: #000000; /* Adjusted for contrast */
+}
+
+.message-text {
+    margin-left: 65px;
+    color: #000000; /* Adjusted for contrast */
+}
+
+.coffeebot-message, .anda-message {
+    background-color: #d4d0cc; /* Rich brown color */
+    color: #fff;
+    border-radius: 7px;
+    padding: 15px;
+    margin-bottom: 15px;
+    max-width: 80%;
+    animation: fadeIn 0.5s; /* Tambahkan animasi fadeIn */
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.anda-message {
+    background-color: #C4A484; /* Lighter brown color */
+    color: #fff;
+    margin-left: auto;
+}
+
+form {
+    display: flex;
+    margin-top: 30px;
+}
+
+input[type="text"] {
+    flex: 10;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    flex: 2;
+    background: #C4A484;
+    color: #000000;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+}
+
+/* Typing animation styles */
+.typing {
+    display: flex;
+    align-items: center;
+}
+
+.typing .dot {
+    width: 8px;
+    height: 8px;
+    margin: 0 2px;
+    background-color: #333;
+    border-radius: 50%;
+    animation: blink 1.4s infinite both;
+}
+
+.typing .dot:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.typing .dot:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.typing .dot:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0.2;
+    }
+    20% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.2;
+    }
+}
+
+.about-link {
+    font-size: 1em;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #C4A484;
+    border-radius: 5px;
+}
+
+.about-link:hover {
+    text-decoration: underline;
+    background-color: #e9e9e9;
+}
+
+.about-logo {
+    display: block;
+    max-width: 200px; /* Adjust this value as needed */
+    height: auto;
+    margin: 20px auto; /* Center the logo horizontally */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.about-logohome {
+    display: block;
+    max-width: 70px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+/* Tambahkan media query untuk tampilan responsif */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    .coffeebot-message, .anda-message {
+        max-width: 100%;
+    }
+
+    input[type="text"], input[type="submit"] {
+        flex: 1;
+        margin-bottom: 10px;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+
+    .history-content,
+    #chatbox {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    
+}
+
+.history-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.history-item input {
+    display: none;
+    width: 60%;
+}
+
+.history-item.active input {
+    display: inline-block;
+}
+
+.rename-button {
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+}
+
+.rename-button:hover {
+    color: #555;
+}
+
+.rename-button i {
+    font-size: 1.2em;
+}
+
+
