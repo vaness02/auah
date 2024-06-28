@@ -1,22 +1,20 @@
-# Gunakan image dasar yang mendukung Python dan GPU jika diperlukan
+# Gunakan image dasar yang mendukung Python
 FROM python:3.9-slim
 
-# Set environment variables
-ENV PYTHONUNBUFFERED=1
-ENV PYTHONDONTWRITEBYTECODE=1
-
-# Install dependencies
-RUN pip install --upgrade pip
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-
-# Copy source code
-COPY . /app
+# Setel direktori kerja dalam container
 WORKDIR /app
 
-# Copy model and documents
-COPY squad_bert /app/squad_bert
-COPY modelakhir /app/modelakhir
+# Salin file requirements.txt dan instal dependensi Python
+COPY requirements.txt .
 
-# Run the application
+# Instalasi dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Salin semua file ke direktori kerja dalam container
+COPY . .
+
+# Ekspose port jika aplikasi Anda berjalan di port tertentu (misalnya, 5000)
+EXPOSE 5000
+
+# Tentukan perintah untuk menjalankan aplikasi Anda
 CMD ["python", "app.py"]
